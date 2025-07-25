@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Place Details</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<header>
+	<div class="logo"><img src="part4/images/logo.png"></div>
+	<div class="login-button"></div>
+	</header>
+    <main>
+        <section id="place-details">
+            <!-- Place details will be populated dynamically -->
+			 <div class="place-info">
+				<p>host: Marc<!--name of host--></p>
+				<p>price: 120€ <!-- price of place--></p>
+				<p>description: jolie maison bordelaise <!-- description of place --></p>
+				<p>amenities: </p>
+			 </div>
+        </section>
+        <section id="reviews">
+            <!-- Reviews will be populated dynamically -->
+			 <div class="review-card">
+				<p><!--commentary--></p>
+				<p>user: Axel<!--user--></p>
+				<p>rating: 5 <!--rating--></p>
+			 </div>
+
+
+        </section>
+        <section id="add-review">
+            <h2>Add a Review</h2>
+            <form id="review-form">
+                <label for="review-text">Review:</label>
+                <textarea id="review-text" name="review-text" required></textarea>
+                
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+	<footer>
+       <p> © 2025 All rights reserved.</p>
+	</footer>
+    <script src="scripts.js"></script>
+</body>
+</html>

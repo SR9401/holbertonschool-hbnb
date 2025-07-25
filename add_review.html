@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Review</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="icon.png">
+</head>
+<body>
+    <!-- Header with logo and login button -->
+    <header>
+        <img src="part4/images/logo.png" alt="App Logo" class="logo">
+        <a href="login.html" class="login-button">Déconnexion</a>
+    </header>
+
+    <!-- Navigation bar -->
+    <nav>
+        <a href="index.html">Accueil</a>
+        <a href="place.html">Retour au lieu</a>
+    </nav>
+
+    <main>
+        <!-- Title for the place -->
+        <section>
+            <h1>Ajouter un avis pour <strong>Maison Bordelaise</strong></h1>
+        </section>
+
+        <!-- Review form -->
+        <form id="review-form" class="form add-review">
+            <h2>Add a Review</h2>
+
+            <label for="review">Your Review:</label>
+            <textarea id="review" name="review" rows="4" required></textarea>
+
+            <label for="rating">Rating:</label>
+            <select id="rating" name="rating" required>
+                <option value="">-- Rate --</option>
+                <option value="5">⭐ 5 </option>
+                <option value="4">⭐ 4 </option>
+                <option value="3">⭐ 3 </option>
+                <option value="2">⭐ 2 </option>
+                <option value="1">⭐ 1 /option>
+            </select>
+
+            <button type="submit">Submit Review</button>
+        </form>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>All rights reserved © 2025</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
